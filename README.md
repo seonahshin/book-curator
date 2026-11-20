@@ -103,6 +103,14 @@ python -m venv .venv
 .venv\Scripts\python -m uvicorn api:app --app-dir src --port 8000
 ```
 
+또는 [run.sh](run.sh) 한 번으로 1)·3)을 처리한다 (macOS/Linux 터미널, Windows는 Git Bash). 가상환경이 없으면 만들고, `requirements.txt`가 바뀌었을 때만 설치하며, `.env`가 없으면 멈추고 알려 준다.
+
+```bash
+./run.sh            # 서버 실행 (PORT=8001 ./run.sh 로 포트 변경)
+./run.sh test       # 코드 규칙 pytest
+./run.sh eval       # 20문항 채점 (Bedrock·정보나루 호출)
+```
+
 - 첫 검색 때 `chroma_db/`(벡터 DB)를 스냅샷에서 자동으로 만든다.
 - 웹 화면 (한 페이지, 스크롤 카드형): 소개 → ① 프로필 고르기·만들기 → ② 읽은 책 한 권씩 담아 저장(👎 싫었어, 🗑 지우기, 독서 취향 키워드) → ③ 추천 목적·권수 → ④ 추천 카드. 카드의 "＋ 읽었어요"를 누르면 그 책이 읽은 책 목록에 들어가 다음 추천에서 빠진다. 추천을 고르는 동안 ①②는 잠긴다.
 - API 예시
