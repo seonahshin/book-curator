@@ -107,7 +107,7 @@
 - ✅ T15 README.md 완성 (템플릿 준수, 트라이앤에러 회고, 아키텍처 그림) (11-20: 사용자 확인 대기)
 - ⬜ T15-2 (11-19 사용자 요청) README 6절 트라이앤에러 회고 전체 재검토·최종 수정. 그 전까지는 겪은 문제를 생길 때마다 6절에 계속 쌓는다
 - ✅ T15-1 공인 IP 재확인 (Python으로 나가는 IP가 정보나루 등록 IP `(등록 IP 1)`, `(등록 IP 2)` 중 하나인지. 다르면 등록 후 진행, 최대 3개) (11-20 통과: 나가는 IP `(등록 IP 2)`(등록됨), 정보나루 실제 검색 1건 정상, Sonnet 4.5 경로 3개(us.·global. @us-east-1, global. @ap-northeast-2) 모두 응답)
-- ⬜ T16 시연 캡처 + 새 public GitHub 레포에 mini-pjt_seonahshin만 push (비밀값·개인정보 확인) + Google Form 제출 (15:00 마감, 13:30 1차 제출 권장) (11-20: 시연 캡처 ✅, book-curator 레포 생성·push ✅ → 남은 것: Google Form 제출)
+- ✅ T16 시연 캡처 + 새 public GitHub 레포에 mini-pjt_seonahshin만 push (비밀값·개인정보 확인) + Google Form 제출 (15:00 마감, 13:30 1차 제출 권장) (11-20 완료: 시연 캡처 17장, https://github.com/seonahshin/book-curator push, **Google Form 제출 완료**)
 - ⬜ T17 (선택) Dockerfile, 장기 기억(새로 읽은 책 기록 추가 + 사람 승인)
 
 ## 추가 기능 백로그 (더 딱 맞는 추천을 위한 선택 입력 · 사용자 아이디어 11-18)
