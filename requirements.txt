@@ -1,0 +1,32 @@
+# 개인 맞춤 도서 추천 에이전트 · Python 3.11+ (개발: 3.14)
+# 설치: python -m venv .venv  →  .venv\Scripts\pip install -r requirements.txt
+
+# 공통
+boto3==1.43.126
+python-dotenv==1.2.4
+httpx==0.28.1
+pydantic==2.14.3
+
+# LLM·Agent (Bedrock)
+langchain==1.4.9
+langchain-core==1.7.6
+langchain-aws==1.9.2
+langgraph==1.2.20
+
+# RAG (하이브리드 검색)
+langchain-chroma==1.1.0
+chromadb==1.5.9
+rank-bm25==0.2.2
+kiwipiepy==0.24.1
+
+# MCP (정보나루 원격 서버)
+mcp==1.30.0
+langchain-mcp-adapters==0.3.2
+
+# API 서버·웹 화면
+fastapi==0.163.1
+uvicorn==0.54.0
+
+# 평가
+pytest
+ragas

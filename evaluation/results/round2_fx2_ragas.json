@@ -1,0 +1,130 @@
+{
+  "round": "round2_fx2",
+  "metrics": [
+    "context_recall",
+    "llm_context_precision_with_reference",
+    "faithfulness",
+    "answer_relevancy"
+  ],
+  "average": {
+    "context_recall": 0.705,
+    "llm_context_precision_with_reference": 0.288,
+    "faithfulness": 0.802,
+    "answer_relevancy": 0.461
+  },
+  "n": 11,
+  "elapsed_s": 395.1,
+  "reference_note": "reference = expected_traits 이어 붙임 (문제지에 정답 문장 없음)",
+  "per_case": [
+    {
+      "id": "1",
+      "category": "positive",
+      "input": "아이가 다음에 읽을 책 5권 추천해줘",
+      "model": "Sonnet 4.5 (us.anthropic.claude-sonnet-4-5-20250929-v1:0 @ us-east-1)",
+      "context_recall": 0.75,
+      "llm_context_precision_with_reference": 0.0,
+      "faithfulness": 0.836,
+      "answer_relevancy": 0.362
+    },
+    {
+      "id": "2",
+      "category": "positive",
+      "input": "내가 다음에 읽을 책 5권 추천해줘",
+      "model": "Sonnet 4.5 (us.anthropic.claude-sonnet-4-5-20250929-v1:0 @ us-east-1)",
+      "context_recall": 0.0,
+      "llm_context_precision_with_reference": 0.0,
+      "faithfulness": 0.854,
+      "answer_relevancy": 0.209
+    },
+    {
+      "id": "3",
+      "category": "positive",
+      "input": "아이가 읽은 책들이랑 분위기가 비슷한 책 있어?",
+      "model": "Sonnet 4.5 (us.anthropic.claude-sonnet-4-5-20250929-v1:0 @ us-east-1)",
+      "context_recall": 1.0,
+      "llm_context_precision_with_reference": 0.111,
+      "faithfulness": 0.746,
+      "answer_relevancy": 0.457
+    },
+    {
+      "id": "5",
+      "category": "positive",
+      "input": "아이한테 웃기면서 모험 이야기 나오는 책 추천해줘",
+      "model": "Sonnet 4.5 (us.anthropic.claude-sonnet-4-5-20250929-v1:0 @ us-east-1)",
+      "context_recall": 0.0,
+      "llm_context_precision_with_reference": 0.633,
+      "faithfulness": 0.773,
+      "answer_relevancy": 0.511
+    },
+    {
+      "id": "6",
+      "category": "positive",
+      "input": "아이 독서 기록 보고 어떤 책을 좋아하는 것 같은지 알려줘",
+      "model": "Sonnet 4.5 (us.anthropic.claude-sonnet-4-5-20250929-v1:0 @ us-east-1)",
+      "context_recall": 1.0,
+      "llm_context_precision_with_reference": 0.756,
+      "faithfulness": 0.821,
+      "answer_relevancy": 0.694
+    },
+    {
+      "id": "7",
+      "category": "positive",
+      "input": "아이가 싫다고 표시한 책 알려줘",
+      "model": "Sonnet 4.5 (us.anthropic.claude-sonnet-4-5-20250929-v1:0 @ us-east-1)",
+      "context_recall": 1.0,
+      "llm_context_precision_with_reference": 0.625,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.643
+    },
+    {
+      "id": "8",
+      "category": "positive",
+      "input": "과학 좋아하는 아이한테 과학책 3권만 골라줘",
+      "model": "Sonnet 4.5 (us.anthropic.claude-sonnet-4-5-20250929-v1:0 @ us-east-1)",
+      "context_recall": 1.0,
+      "llm_context_precision_with_reference": 0.0,
+      "faithfulness": 0.686,
+      "answer_relevancy": 0.521
+    },
+    {
+      "id": "13",
+      "category": "edge",
+      "input": "아이가 싫어했던 책이랑 비슷한 책은 빼고 추천해줘",
+      "model": "Sonnet 4.5 (us.anthropic.claude-sonnet-4-5-20250929-v1:0 @ us-east-1)",
+      "context_recall": 0.667,
+      "llm_context_precision_with_reference": 0.129,
+      "faithfulness": 0.746,
+      "answer_relevancy": 0.474
+    },
+    {
+      "id": "14",
+      "category": "edge",
+      "input": "아이랑 내가 같이 읽을 책 하나 골라줘",
+      "model": "Sonnet 4.5 (us.anthropic.claude-sonnet-4-5-20250929-v1:0 @ us-east-1)",
+      "context_recall": 0.667,
+      "llm_context_precision_with_reference": 0.756,
+      "faithfulness": 0.9,
+      "answer_relevancy": 0.448
+    },
+    {
+      "id": "16",
+      "category": "edge",
+      "input": "아이가 읽었던 책 중에 다시 읽으면 좋을 책 있어?",
+      "model": "Sonnet 4.5 (us.anthropic.claude-sonnet-4-5-20250929-v1:0 @ us-east-1)",
+      "context_recall": 0.667,
+      "llm_context_precision_with_reference": 0.071,
+      "faithfulness": 0.714,
+      "answer_relevancy": 0.486
+    },
+    {
+      "id": "17",
+      "category": "edge",
+      "input": "아이가 읽던 시리즈 다음 권 나온 거 있어?",
+      "model": "Sonnet 4.5 (us.anthropic.claude-sonnet-4-5-20250929-v1:0 @ us-east-1)",
+      "context_recall": 1.0,
+      "llm_context_precision_with_reference": 0.091,
+      "faithfulness": 0.746,
+      "answer_relevancy": 0.269
+    }
+  ]
+}

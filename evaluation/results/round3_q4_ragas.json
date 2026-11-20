@@ -1,0 +1,30 @@
+{
+  "round": "round3_q4",
+  "metrics": [
+    "context_recall",
+    "llm_context_precision_with_reference",
+    "faithfulness",
+    "answer_relevancy"
+  ],
+  "average": {
+    "context_recall": 0.5,
+    "llm_context_precision_with_reference": 1.0,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.404
+  },
+  "n": 1,
+  "elapsed_s": 42.5,
+  "reference_note": "reference = expected_traits 이어 붙임 (문제지에 정답 문장 없음)",
+  "per_case": [
+    {
+      "id": "4",
+      "category": "positive",
+      "input": "요즘 초등 2~4학년 아이들이 도서관에서 많이 빌리는 책 알려줘",
+      "model": "Sonnet 4.5 (global.anthropic.claude-sonnet-4-5-20250929-v1:0 @ us-east-1)",
+      "context_recall": 0.5,
+      "llm_context_precision_with_reference": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.404
+    }
+  ]
+}
